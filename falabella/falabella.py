@@ -130,7 +130,7 @@ def main():
 
     for url in category_urls:
         print(f"Iniciando extracción para la URL: {url}")
-        products = fetch_products_from_category(url, driver, 80)
+        products = fetch_products_from_category(url, driver, 70)
         total_products.extend(products)
         print(f"Total de productos obtenidos de esta categoría: {len(products)}")
 
